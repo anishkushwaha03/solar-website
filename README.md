@@ -1,41 +1,43 @@
-TECHNO SOLAR POWER
-A responsive full-stack web application for a solar power company, featuring a modern frontend and a backend API for handling contact form submissions.
+# ☀️ Techno Solar Power
 
-🚀 Features
-Modern Frontend: Built with React and Vite for fast performance.
+A full-stack MERN (MongoDB, Express, React, Node.js) web application designed for a modern solar power company. This project features a responsive frontend built with React and Tailwind CSS, integrated with a robust backend API for managing customer inquiries.
 
-Responsive Design: Styled using Tailwind CSS to look good on all devices.
+## 🚀 Features
 
-Navigation: Client-side routing with React Router (Home, About, Services, Contact).
+-   **Responsive Design:** Fully responsive layout optimized for desktop, tablet, and mobile using **Tailwind CSS**.
+-   **Client-Side Routing:** Seamless navigation between pages (Home, About, Services, Contact) powered by **React Router**.
+-   **REST API:** Custom backend API to handle data requests.
+-   **Database Integration:** **MongoDB** integration for storing contact form submissions and persistent data.
+-   **Modern Tooling:** Built with **Vite** for lightning-fast development and build times.
 
-Backend API: Node.js & Express server to handle requests.
+## 🛠️ Tech Stack
 
-Database Integration: MongoDB connection for storing contact inquiries.
+### Frontend (Client)
+-   **React** (v19) - Component-based UI library
+-   **Vite** - Next Generation Frontend Tooling
+-   **Tailwind CSS** (v4) - Utility-first CSS framework
+-   **React Router DOM** - declarative routing
+-   **Axios** - Promise-based HTTP client
 
-🛠️ Tech Stack
-Frontend:
+### Backend (Server)
+-   **Node.js** - JavaScript runtime environment
+-   **Express.js** - Web application framework
+-   **MongoDB & Mongoose** - NoSQL database and object modeling
+-   **Dotenv** - Environment variable management
+-   **CORS** - Cross-Origin Resource Sharing
 
-React
+## 📂 Project Structure
 
-Vite
-
-Tailwind CSS
-
-React Router DOM
-
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB & Mongoose
-
-CORS & Dotenv
-
-📂 Project Structure
-The project is divided into two main folders:
-
-/client - The React frontend application.
-
-/server - The Node.js/Express backend API.
+```bash
+solar-website/
+├── client/         # Frontend React application
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── ...
+│   └── package.json
+└── server/         # Backend Node/Express API
+    ├── models/     # Mongoose database models
+    ├── app.js      # Entry point for the server
+    └── package.json
