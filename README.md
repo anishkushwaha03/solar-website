@@ -14,15 +14,23 @@ Database Integration: MongoDB connection for storing contact inquiries.
 
 🛠️ Tech Stack
 Frontend:
+
 React
+
 Vite
+
 Tailwind CSS
+
 React Router DOM
 
 Backend:
+
 Node.js
+
 Express.js
+
 MongoDB & Mongoose
+
 CORS & Dotenv
 
 📂 Project Structure
